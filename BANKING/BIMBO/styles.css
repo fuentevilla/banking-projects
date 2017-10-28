@@ -1,0 +1,487 @@
+body {
+	font-family: 'Brandon Grotesque', helvetica, sans-serif;
+	margin: 0;
+}
+
+.line {
+	display: inline-block;
+	font-size: 13px;
+	vertical-align: middle;
+	width: 15%;
+    margin: 0px 1.5% 0 0;
+    min-width: 80px;
+}
+.des {
+	width: 14%;
+}
+.cir {
+	width: 20% !important;
+	min-width: 150px;
+}
+h3 {
+	margin: 0;
+	color: #032c6d;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+}
+select {padding-left: 0 !important;}
+h4 {
+	display: inline-block;
+}
+
+ option {
+	-webkit-appearance: none;
+	appearance:none;
+	padding: 10px 15px;
+	color: #717e83;
+	border-bottom: #c2cbcf solid 1px;
+}
+ option:hover{
+	-webkit-appearance: none;
+	appearance:none;
+	background: #032c6d;
+}
+
+.error input {
+	border: 1px solid #ea4c4d;
+	background: #fdeded !important;
+	color: #556064;
+}
+.error a {
+	color: #ea4c4d !important;
+	font-family: 'lato', sans-serif;
+	font-size: 14px;
+	margin-top: 2px;
+	position: absolute;
+}
+
+
+.dwn {
+	margin: auto;
+	text-align: center;
+}
+.head {
+	background: #E5EFF1;
+	padding: 2% 2% 1% 2%;
+    width: 96%;
+}
+
+th {
+	color: #032c6d;
+	font-weight: bold;
+	padding-bottom: 8px;
+	border-bottom: 4px #032c6d solid;
+}
+td {
+	padding: 7px 0;
+}
+
+input, select, button {
+	border: 1px solid #ccc;
+	height: 35px;
+	padding-left: 10px;
+	width: 100%;
+	color: #555;
+}
+select {
+	-webkit-appearance: none;
+  	-moz-appearance: none;
+    background: url(selec.png) no-repeat right center #fff;
+    color: #555;
+}
+select::-ms-expand{
+  display:none;
+}
+
+button:hover {
+	border: #888 solid 1px;
+	color: #666;
+}
+button {
+	background: transparent;
+	border: 1px solid #1D2B4E;
+	font-weight: bold;
+	cursor: pointer;
+	width: 100% !important;
+}
+
+
+input[type=radio] {
+	width: 18px;
+	border: 1px solid #ccc;
+	height: 13px;
+
+}
+input[type=text] {
+	background: url(calen.png) no-repeat right center #fff;
+}
+
+table {
+	width: 100%;
+	text-align: center;
+	border-spacing: 0;
+	border:none;
+	font-size: 16px;
+}
+.bod {
+	padding: 15px 2%;
+	width: 96%;
+}
+
+.bod tr:nth-child(2n) {
+	background: #E8EDF1;
+}
+
+.tab-head {
+	background: #fff;
+}
+
+.bod td:first-child {
+	width: 20%;
+}
+.bod td:last-child {
+	width: 20%;
+}
+
+.bod td {
+	width: 12%;
+}
+
+.dwn h4{
+	vertical-align: super;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0 9px;
+	cursor: pointer;
+}
+.dwn h4:hover {
+	color: #333;
+}
+.dwn img {
+	cursor: pointer;
+	border: none;
+}
+.select {
+	font-weight: bold !important;
+}
+.dwn {
+	margin-top: 15px;
+}
+.ajustes {
+	margin: 21px 0 0px 0;
+}
+.line div {
+	display: inline-block;
+	vertical-align: -webkit-baseline-middle;
+}
+
+.pt1 {
+	float: left;
+	width: 38%;
+	display: inline-block;
+	margin-right: 3%;
+	padding-top: 30px;
+}
+.pt2 {
+	float: left;
+	width: 55%;
+	display: inline-block;
+	padding-top: 30px;
+}
+.line2 {
+	display: inline-block;
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+.line3 {
+	display: inline-block;
+	margin-bottom: 25px;
+	width: 100%;
+	text-align: right;
+	margin-right: 1%;
+}
+.line3 button {
+	background: #032c6d;
+	color: #fff;
+	width: 120px !important;
+}
+
+.michas {
+	width: 48%;
+	display: inline-block;
+    text-align: right;
+    margin-right: 3px;
+    color: #717e83;
+}
+
+.pt2 h4 {
+	margin:0 0 15px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #a5b5cb;
+	width: 100%;
+	color:#0150cf;
+	font-weight: bold;
+}
+
+.pt2 table {
+	color: #0150cf ;
+}
+.pt2 td {
+	width: 15%;
+	color: #0150cf !important;
+
+}
+.pt2 td:last-child {
+	width: 40%;
+}
+
+.pt2 td:first-child {
+	color: #088fc1 !important;
+}
+
+.pt2 td:nth-child(2) {
+	color: #088fc1 !important;
+}
+.bod td{
+	color: #666;
+}
+.gra {
+	margin:50px;
+}
+.t1 div {
+	text-align: center;
+}
+.tablas td {
+	border-bottom: 1px solid #666;
+	color: #9baaaf;
+	padding: 14px 0;
+}
+
+.num{
+	border: 1px solid #E3B939;
+	font-style: italic;
+	font-size: 35px;
+	padding: 12px;
+	margin: 8px 8px 10px 8px;
+	text-align: center;
+}
+.inst {
+	background: #9BAAB1;
+	padding: 8px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	color: #fff;
+	margin: 8px 8px 10px 8px;
+}
+.porc {
+	text-align: center;
+	font-size: 15px;
+	padding: 8px;
+	margin: 8px 8px 10px 8px;
+	border-bottom: 1px solid #bbb;
+}
+small {
+	font-size: 11px;
+}
+
+.retr {
+	text-align: center;
+	font-size: 11px;
+	color: #D4D5D7;
+}
+
+.tablas table {
+	font-size: 14px;
+}
+
+.tablas {
+	margin: 8px;
+}
+.green {
+	color: green;
+}
+small {
+	color:#555;
+}
+.results {
+	display: inline-block;
+	width: 28%;
+	font-size: 20px;
+	margin: 0 2px 8px 0;
+	border: 1px solid #ddd;
+	padding: 7px 12px 0;
+}
+.results h6 {
+	color: #032c6d;
+	font-size: 28px;
+	margin: -5px 0 8px 0;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+	.results {
+		display: block;
+		width: 100%;
+	}
+	.pt1 {
+		width: 97%;
+	}
+	.pt2 {
+		width: 97%;
+	}
+}
+
+
+@font-face { font-family: 'Brandon Grotesque'; src: url('Brandon_bld.otf');  }
+@font-face { font-family: 'Brandon Grotesque'; src: url('Brandon_reg.otf');  }
+
+
+
+
+
+
+/*------- LO NUEVO -------*/
+
+.contene2{
+	margin: 41px 0;
+}
+
+.contenehead {
+	width: 100%;
+	border-bottom: 3px solid #032c6d;
+	margin: 7px 0;
+	text-align: center;
+}
+.contenehead div{
+	display: inline-block;
+    font-size: 16px;
+    font-family: 'lato', sans-serif;
+    margin-right: 16px;
+    text-align: right;
+    width: 100px;
+    color: #032c6d;
+    font-weight: bold;
+}
+.contenehead div h6 {
+	font-size: 16px;
+	font-family: 'Brandon Grotesque', sans-serif;
+	margin: 0;
+}
+
+.ladoder {
+	font-family: 'lato', sans-serif;
+	display: inline-block;
+	width: 100px;
+	margin-right: 16px;
+	text-align: right;
+	color: #032c6d;
+}
+.ladoizq {
+	font-family: 'Brandon Grotesque', sans-serif;
+	display: inline-block;
+	width: 100px;
+	margin-right: 16px;
+	font-size: 16px;
+	color: #717e83;
+	text-align: left;
+}
+.contenebody {
+	font-size: 16px;
+	width: 100%;
+	border-bottom: solid 1px #f7941d;
+	padding-bottom: 11px;
+	text-align: center;
+}
+.ladoizq h5 {
+	line-height: 1.22;
+}
+.contenebody h5, h6 {
+	margin: 8px 0;
+	font-size: 16px;
+} 
+
+@media screen and (max-width: 550px) {
+	.line {
+		font-size: 14px;
+		display: block;
+		width: 100%;
+		margin: 10px 0 0 0;
+	}
+	.cir {
+		width: 100% !important;
+	}
+	h3 {
+		line-height: 1.1;
+    	margin-top: 10px;
+	}
+	.head {
+	    padding: 2% 2% 4% 2%;
+	}
+	input, select {
+		padding-left: 0;
+	}
+	button {
+		padding-left: 0;
+		width: 50% !important;
+	}
+}
+
+
+
+/*-----EL MERO MERO SABOR RANCHERO--------*/
+
+.side h3 {
+	padding: 0 8px 20px;
+}
+.retr {
+    text-align: center;
+    font-size: 14px;
+    color: #717e83;
+    font-family: 'lato', sans-serif;
+}
+.addmenu {
+	border-top: 3px solid #032c6d;
+	border-bottom: 1px solid #032c6d;
+	margin: 33px 6px 20px;
+}
+
+.addmenu h6 {
+	line-height: 1.8;
+}
+.addmenu h5 {
+	line-height: 1.8;
+}
+
+.cuadro {
+	background: #9baaaf;
+	padding: 13px;
+	color: #fff;
+	margin: 28px 8px 8px;
+	text-align: center;
+}
+
+.nocuadro {
+	text-align: center;
+	border-bottom: 1px solid #9baaaf;
+	margin: 10px;
+    padding-bottom: 10px;
+}
+.nocuadro b{
+	display: inline-block;
+}
+
+.nocuadro a{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 800;
+	color: #032c6c;
+}
+
+.nocuadro span {
+	display: inline-block;
+	font-size: 12px;	
+	color: #556064;
+}
